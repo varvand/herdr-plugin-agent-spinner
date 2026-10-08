@@ -1,0 +1,9 @@
+id = "local.agent-spinner"
+name = "Agent spinner"
+version = "0.1.0"
+description = "One-cell animated icon on working rows in the Agents sidebar"
+platforms = ["macos"]
+min_herdr_version = "0.9.0"
+
+[[startup]]
+command = ["python3", "spin.py"]
