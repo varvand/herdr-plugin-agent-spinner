@@ -2,6 +2,8 @@
 
 One-cell braille spinner on a Herdr Agents-sidebar row while that agent is working. Spaces rows stay static.
 
+![Spinner on working agent rows](docs/spinner.gif)
+
 Herdr's own status mark does not animate. This plugin writes a display-only `$spin` token for panes whose `agent_status` is `working`, and clears it otherwise. The glyph is `#e0af68`.
 
 Requires Herdr 0.9.0 or newer and `python3` on `PATH`.
